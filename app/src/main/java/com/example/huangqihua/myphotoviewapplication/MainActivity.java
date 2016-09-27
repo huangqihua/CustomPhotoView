@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageLoader.getInstance().displayImage(href,mShowImage);
 
+
         mPutUrl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         mUrls = new ArrayList();
         mUrls.add("http://img4.imgtn.bdimg.com/it/u=1419557827,2529008583&fm=21&gp=0.jpg");
         mUrls.add("http://img5q.duitang.com/uploads/item/201503/07/20150307203721_nnS2E.png");
+        mUrls.add("http://img15.3lian.com/2015/a1/16/d/202.jpg");
         mUrls.add("http://img15.3lian.com/2015/a1/16/d/202.jpg");
         map.put("list",mUrls);
 
